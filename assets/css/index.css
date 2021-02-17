@@ -6,16 +6,12 @@ body {
     background-size: cover;
 }
 
-.social{
-    position: fixed;
-    bottom: 15px;
-    width:99%;
-  }
+
   
-  .social a{
-    color: gainsboro;
-    padding-left: 10px;
-  }
-  .social a:hover{
-    color: white;
-  }
+.social a{
+  color: gainsboro;
+  padding-left: 10px;
+}
+.social a:hover{
+  color: white;
+}
