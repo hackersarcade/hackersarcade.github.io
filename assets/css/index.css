@@ -7,7 +7,7 @@ body {
 }
 .social a{
   color: gainsboro;
-  padding-left: 10px;
+  padding-right: 10px;
 }
 .social a:hover{
   color: white;
