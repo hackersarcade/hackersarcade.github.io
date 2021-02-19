@@ -12,6 +12,9 @@ body {
 .social a:hover{
   color: white;
 }
+.community img{
+  max-width: 300px;
+}
 @keyframes fadeInUp {
   from {
       transform: translate3d(0,40px,0)
