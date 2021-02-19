@@ -13,7 +13,7 @@ body {
   color: white;
 }
 .community img{
-  max-width: 300px;
+  max-width: 200px;
 }
 @keyframes fadeInUp {
   from {
