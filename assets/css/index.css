@@ -12,6 +12,12 @@ body {
 .social a:hover{
   color: white;
 }
+footer{
+  background-color:#212529;
+}
+footer hr{
+  color:white;
+}
 .community img{
   max-width: 200px;
   
