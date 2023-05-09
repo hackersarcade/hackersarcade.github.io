@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<section class="post">
+  <div class="flex-row-between">
+      <a href="{{ site.url }}{{ site.baseurl }}/"><span style="font-weight: 900, !important;">&#8592;</span> Home</a>
+    <button title="Change theme" id="theme-toggle" onclick="modeSwitcher()">
+      <div></div>
+    </button>
+  </div>
+  <h2>Disassembler</h2>
+  Disassemble x64 and x86 directly in your browser (Intel syntax support only!)
+</section>
+    <div>
+        <nav class="architecture">
+          <button class="tab-btn" id="x64-btn" data-menu="1">x64</button>
+          <button class="tab-btn" id="x86-btn" data-menu="2">x86</button>
+        </nav>
+      </div>
+      
+    <div style="display:flex;">
+        <div class="disasm-area">
+          <textarea id="disasm-input" rows="10" cols="50"></textarea>
+          <textarea id="disasm-output" class="syntax-highight html" rows="10" cols="50" readonly></textarea>
+        </div>
+    </div>
+    </div><br>
+
+    <script>
+        editor.addEventListener("disasm-output", (e) => {
+            visualizer.innerHTML = e.target.value;
+            Prism.highlightAll();
+        })
+    </script>
+<section>
+<script type="module" script src="/assets/js/disasm.js"></script>
