@@ -43,6 +43,16 @@ body {
 .socials a:hover{
   color: red;
 }
+.error{
+  margin-top:25%;
+}
+.error a{
+  color: white;
+  text-decoration: none;
+}
+.error a:hover{
+  color: rgb(255, 0, 0);
+}
 @keyframes fadeInUp {
   from {
       transform: translate3d(0,40px,0)
