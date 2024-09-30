@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/assets/images/background.gif);
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)), url(/assets/images/background.gif);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
